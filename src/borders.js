@@ -1,5 +1,4 @@
 // adjacency list of NM graph map
-
 const borders = {
   CAN: ['USA'],
   USA: ['CAN', 'MEX'],
