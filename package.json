@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "homepage": "https://github.com/zsharon012/country-route-api#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
