@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/zsharon012/country-route-api#readme",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^7.3.1"
   },
   "engines": {
     "node": ">=20"
